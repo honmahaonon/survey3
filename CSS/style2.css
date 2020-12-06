@@ -1,0 +1,42 @@
+@import url(sanitize.css);
+h1 {
+    font-size: 30px;
+    margin: auto;
+}
+.control {
+    background-color: rgba(191, 215, 216, 0.726);
+    width: 600px;
+    margin: 10px auto;
+    border: 1px solid #111010;
+    padding: 30px;
+    font-family: "Yu Gothic", "游ゴシック", "YuGothic", "游ゴシック体";
+    font-size: 18px;
+}
+@font-face {
+    font-family: "YuGothic M";
+    src: local("Yu Gothic Medium"),
+         local("Yu Gothic");
+}
+.form-group {
+    background-color: rgba(191, 215, 216, 0.726);
+    width: 600px;
+    margin: 10px auto;
+    border: 1px solid #111010;
+    padding: 30px;
+    font-family: "Yu Gothic", "游ゴシック", "YuGothic", "游ゴシック体";
+    font-size: 24px;
+    text-align: center;
+}
+.content {
+    background-color: rgba(191, 215, 216, 0.726);
+    width: 600px;
+    margin: 10px auto;
+    border: 1px solid #111010;
+    padding: 30px;
+    font-family: "Yu Gothic", "游ゴシック", "YuGothic", "游ゴシック体";
+    font-size: 20px;
+}
+.id {
+    text-align: center;
+    font-size: 30px;
+}

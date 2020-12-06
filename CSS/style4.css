@@ -1,0 +1,51 @@
+@import url(sanitize.css);
+h1 {
+    font-size: 30px;
+    margin: auto;
+    line-height: 60px;
+}
+.content {
+    background-color: white;
+    width: 600px;
+    margin: 10px auto;
+    border: 1px solid #111010;
+    padding: 30px;
+    font-family: "Yu Gothic", "游ゴシック", "YuGothic", "游ゴシック体";
+    font-size: 20px;
+    line-height: 40px;
+}
+h2 {
+    font-size: 20px;
+}
+.id {
+    text-align: center;
+}
+.form-group {
+    width: 600px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 22px;
+    margin-top: 60px;
+}
+.required {
+    margin-left: .3em;
+    color: #f33;
+    font-size: .9em;
+    padding: 3px;
+    background-color: #fee;
+    font-weight: bold;
+}
+@media only screen and (max-width: 992px) {
+    .radio-inline {
+        display: block;
+        margin: 0 !important;
+    }
+}
+@font-face {
+    font-family: "YuGothic M";
+    src: local("Yu Gothic Medium"),
+         local("Yu Gothic");
+  }
+body {
+    background-color: gainsboro;
+} 
