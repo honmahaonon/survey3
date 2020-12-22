@@ -4,10 +4,10 @@ h1 {
   margin: auto;
 }
 h2 {
-font-size: 80px;
+  font-size: 80px;
 }
 .content {
-  background-color: aliceblue;
+  background-color: whitesmoke;
   width: 950px;
   margin: 10px auto;
   border: 1px solid #111010;
@@ -19,9 +19,8 @@ font-size: 80px;
   font-family: "YuGothic M";
   src: local("Yu Gothic Medium"),
        local("Yu Gothic");
-}
 .btn {
-  background-color: snow;
+  background-color: white;
   color: black;
   padding: 20px;
   text-align: center;
