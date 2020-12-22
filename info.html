@@ -16,18 +16,16 @@
   <link rel="stylesheet" href="CSS/style2.css">
 </head>
 <body>
-  <div class="control">
-    <h1>〇性別と年齢をご選択ください。</h1>
-  </div>
-  <div class="form-group">
+ <h1>〇性別と年齢をご選択ください。</h1>
+  <form method="POST" action="info3.php">
     <p><label for="sex">あなたの性別は？</label></p>
-    <select id="sex" name="sex" class="form-control">
+    <select id="sex" name="sex" class="form">
       <option value="">選択してください</option>
       <option value="">男性</option>
       <option value="">女性</option>
     </select>
     <p><label for="age">あなたの年齢は？</label></p>
-    <select id="age" name="age" class="form-control">
+    <select id="age" name="age" class="form">
       <option value="">選択してください</option>
       <option value="">10代</option>
       <option value="">20代</option>
@@ -37,7 +35,7 @@
       <option value="">60代</option>
       <option value="">70代</option>
     </select>
-    <p><a href="explanation.html"><input type="button" value="決定"></a></p>
-  </div>
+    <p><a href="explanation.html"><input type="submit" value=""></a></p>
+  </form>
 </body>
 </html>
