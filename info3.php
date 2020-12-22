@@ -20,6 +20,7 @@ var_dump($_POST);
   <link rel="stylesheet" href="CSS/style2.css">
 </head>
 <body>
+ <div class="form-group">
  <h1>〇性別と年齢をご選択ください。</h1>
   <form method="POST" action="info3.php">
     <p><label for="sex">あなたの性別は？</label></p>
@@ -41,5 +42,6 @@ var_dump($_POST);
     </select>
     <p><a href="explanation.html"><input type="submit" value="送信"></a></p>
   </form>
+  </div>
 </body>
 </html>
