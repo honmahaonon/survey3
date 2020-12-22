@@ -3,7 +3,7 @@ h1 {
     font-size: 30px;
     margin: auto;
 }
-. {
+.element_wrap {
     background-color: rgba(191, 215, 216, 0.726);
     width: 600px;
     margin: 10px auto;
