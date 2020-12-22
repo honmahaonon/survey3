@@ -1,16 +1,17 @@
 @import url(sanitize.css);
 h1 {
-    font-size: 30px;
+    font-size: 100px;
     margin: auto;
+    text-align: center;
 }
 .element_wrap {
-    background-color: rgba(191, 215, 216, 0.726);
-    width: 600px;
+    background-color: aliceblue;
+    width: 950px;
     margin: 10px auto;
     border: 1px solid #111010;
     padding: 30px;
     font-family: "Yu Gothic", "游ゴシック", "YuGothic", "游ゴシック体";
-    font-size: 18px;
+    font-size: 60px;
     text-align: center;
 }
 @font-face {
