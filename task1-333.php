@@ -42,6 +42,6 @@ var_dump($_POST);
     <input type="submit" value="送信する">
   </form>
  </div>
- <p><a herf="task2-333.html" class="btn">次へ</a></p>
+ <p><a href="task2-333.html" class="btn">次へ</a></p>
 </body>
 </html>
