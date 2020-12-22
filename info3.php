@@ -20,16 +20,6 @@ var_dump($_POST);
   <link rel="stylesheet" href="CSS/style2.css">
 </head>
 <body>
- <form method="post" action="">
-		<label>氏名</label>
-		<input type="text" name="your_name" value="">
-	
-	<div class="element_wrap">
-		<label>メールアドレス</label>
-		<input type="text" name="email" value="">
-	</div>
-	<input type="submit" name="btn_confirm" value="入力内容を確認する">
-</form>
  <h1>〇性別と年齢をご選択ください。</h1>
   <form method="POST" action="info3.php">
    <div class="element_wrap">
