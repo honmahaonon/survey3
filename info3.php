@@ -39,7 +39,7 @@ var_dump($_POST);
       <option value="">60代</option>
       <option value="">70代</option>
     </select>
-    <p><a href="explanation.html"><input type="submit" value=""></a></p>
+    <p><a href="explanation.html"><input type="submit" value="送信"></a></p>
   </form>
 </body>
 </html>
