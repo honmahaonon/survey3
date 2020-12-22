@@ -1,31 +1,30 @@
 @import url(sanitize.css);
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     margin: auto;
     line-height: 60px;
 }
 .content {
     background-color: white;
-    width: 800px;
+    width: 950px;
     margin: 10px auto;
     border: 1px solid #111010;
     padding: 30px;
     font-family: "Yu Gothic", "游ゴシック", "YuGothic", "游ゴシック体";
-    font-size: 30px;
+    font-size: 40px;
     line-height: 40px;
 }
 h2 {
     font-size: 50px;
-    font-colar: red;
 }
 .id {
     text-align: center;
 }
 .form-group {
-    width: 800px;
+    width: 950px;
     margin: 0 auto;
     line-height: 30px;
-    font-size: 25px;
+    font-size: 40px;
     margin-top: 60px;
 }
 .required {
@@ -50,3 +49,6 @@ h2 {
 body {
     background-color: whitesmoke;
 } 
+.btn {
+    font-size: 30px;
+}
