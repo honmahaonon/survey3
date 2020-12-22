@@ -11,6 +11,7 @@ h1 {
     padding: 30px;
     font-family: "Yu Gothic", "游ゴシック", "YuGothic", "游ゴシック体";
     font-size: 18px;
+    text-align: center;
 }
 @font-face {
     font-family: "YuGothic M";
