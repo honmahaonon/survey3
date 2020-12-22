@@ -30,11 +30,13 @@
     <p>さて、部屋”A”の3つのスイッチが、それぞれどの電球につながっているのか知りたい場合、どうすればよいでしょう？</p><br>
     <h2>※全ての調査終了後、最終ページにも正解を添付しておりますので、こちらのページでは答えを見ずになるべくご自身でお考え下さい。</h2> 
   </div>
-  <div class="form-group">
+ <div class="form-group">
+  <form action="task1-333.php" method="post">
     <label for="message">Q.どうすればスイッチがわかる？(回答欄)<span class="required">※必須</span></label>
-    <textarea type="text" name="message" id="message" rows="8" class="form-control" required></textarea>
-    <p><a href="Answer.html" onclick="ga('send', 'event', 'コンバージョン', 'ダウンロード', '答えはこちら</a></p>
-    <a href="task2-333.html"><button type="submit" class="btn btn-default">送信する</a></button>
+    <input type="textarea" name="confirm" rows="8" value="">
+    <p><a href="Answer.html">答えはこちら</a></p> 
+    <a href="task2-333.html"><input type="submit" value="送信する"></a>
+  </form> 
  </div>
 </body>
 </html>
